@@ -51,6 +51,13 @@ Each configuration file contains properties specific to its respective service.
 
 Once started, the configuration server will be accessible at `http://localhost:9075`. You can use the Spring Cloud Config APIs to retrieve configurations for the services.
 
+## Services ports
+
+- auth-service: 9095
+- department-service: 9080
+- employee-service: 9085
+- user-service: 9090
+
 ## Contributing
 
 If you would like to contribute, please open an issue or create a pull request.
