@@ -1,4 +1,4 @@
-# Config Server
+# Config Repository
 
 This project is a configuration server for the microservices of the employee management application. It uses Spring Cloud Config to manage and centralize the configuration for various services, including `department-service`, `employee-service`, `user-service` and `auth-service`.
 
