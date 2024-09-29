@@ -5,21 +5,13 @@ This project is a configuration server for the microservices of the employee man
 ## Project Structure
 
 ```
-config-server/
-├── src/
-│   ├── main/
-│   │   ├── java/
-│   │   │   └── com/
-│   │   │       └── employees/
-│   │   │           └── configserver/
-│   │   │               ├── ConfigServerApplication.java
-│   │   ├── resources/
-│   │   │   ├── application.properties
-│   │   │   ├── department-service.properties
-│   │   │   ├── employee-service.properties
-│   │   │   └── user-service.properties
-├── pom.xml
-└── README.md
+config-repository/
+├── .gitignore
+├── README.md
+├── auth-service.properties
+├── department-service.properties
+├── employee-service.properties
+├── user-service.properties
 ```
 
 ## Requirements
@@ -33,6 +25,7 @@ The configuration server is set up to read properties from specific files for ea
 
 ### Example Configuration Files
 
+- `auth-service.properties`
 - `department-service.properties`
 - `employee-service.properties`
 - `user-service.properties`
@@ -44,8 +37,8 @@ Each configuration file contains properties specific to its respective service.
 1. Clone the repository:
 
    ```bash
-   git clone (https://github.com/solomon-java-angular-playground/config-server
-   cd config-server
+   git clone https://github.com/solomon-java-angular-playground/employee-management-system
+   cd Backend/config server/src/main/java/com/teleconsys/config_server/
    ```
 
 2. Run the project with Maven:
