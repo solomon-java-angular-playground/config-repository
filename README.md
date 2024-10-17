@@ -25,7 +25,6 @@ The configuration server is set up to read properties from specific files for ea
 
 ### Example Configuration Files
 
-- `auth-service.properties`
 - `department-service.properties`
 - `employee-service.properties`
 - `user-service.properties`
@@ -53,7 +52,6 @@ Once started, the configuration server will be accessible at `http://localhost:9
 
 ## Services ports
 
-- auth-service: 9095
 - department-service: 9080
 - employee-service: 9085
 - user-service: 9090
